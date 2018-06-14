@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9db95"
+    tools:context="com.brilicaservices.myapplication1.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello!!!!"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#e61d1d"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO THE APPLICATION"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee Shop"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#7e1d07"
+        android:layout_gravity="center"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Button to Proceed"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROCEED"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btn_nxt_activity"/>
+
+</LinearLayout>
